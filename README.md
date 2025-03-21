@@ -1,14 +1,53 @@
 # Calculadora Bruna 2025
 
-## Introdução
+## Descrição
 
-Uma calculadora de console simples que permite realizar as quatro operações, além de visualizar a tabuada e o histórico de operações.
+Este é um projeto de uma calculadora simples desenvolvida em C# para ser executada no console. A aplicação permite realizar operações matemáticas básicas, como soma, subtração, multiplicação e divisão, além de exibir a tabuada de um número escolhido e manter um histórico das operações realizadas.
 
 ## Funcionalidades
 
-- **Operações Básicas:** Realize somas, subtrações, multilplicações e divisões com facilidade.
-- **Suporte a Decimais:** Trabalhe com números com casas decimais.
-- **Validação de Entrada** A calculadora garante que apenas opções válidas sejam realizadas.
-- **Tratamento de Divisão por Zero:** A calculadora é capaz de validar erros de divisão por zero.
-- **Tabuada:** A calculadora é capaz de gerar a tabuada de um número informado.
-- **Histórico de Operações:** A calculadora é capaz de armazenar um histórico de operações.
+- Soma
+- Subtração
+- Multiplicação
+- Divisão
+- Tabuada
+- Exibição do histórico de operações
+
+## Como Executar
+
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/calculadora-consoleapp.git
+   ```
+2. Acesse o diretório do projeto:
+   ```sh
+   cd calculadora-consoleapp
+   ```
+3. Compile e execute o programa com o .NET SDK instalado:
+   ```sh
+   dotnet run
+   ```
+
+## Exemplo de Uso
+
+Ao executar o programa, um menu interativo será exibido, permitindo ao usuário escolher a operação desejada digitando o número correspondente.
+
+```
+----------------------------------------
+Calculadora Bruna 2025
+----------------------------------------
+1 - Soma
+2 - Subtração
+3 - Multiplicação
+4 - Divisão
+5 - Tabuada
+6 - Histórico de Operações
+S - Sair
+----------------------------------------
+Escolha uma opção:
+----------------------------------------
+```
+
+## Requisitos
+
+- .NET 6.0 ou superior instalado na máquina
